@@ -1,9 +1,17 @@
-const character = 'mario';
+let character = 'mario';
+let age = 30;
+let isBlackBelt = false;
 
-console.log(character);
+//variables can't change the type's
+character = 'luigi';
 
-const inputs = document.querySelectorAll('input');
+age = 40;
 
-inputs.forEach(input => {
-  console.log(input);
-});
+isBlackBelt = true;
+
+const circ = (diameter: number) => {
+  return diameter * Math.PI;
+};
+
+console.log(circ(7.5));
+
